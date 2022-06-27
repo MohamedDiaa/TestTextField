@@ -14,6 +14,9 @@
 		83BFC5A22869ADAB00BE83E1 /* TestTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFC5A12869ADAB00BE83E1 /* TestTextFieldTests.swift */; };
 		83BFC5AC2869ADAB00BE83E1 /* TestTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFC5AB2869ADAB00BE83E1 /* TestTextFieldUITests.swift */; };
 		83BFC5AE2869ADAB00BE83E1 /* TestTextFieldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFC5AD2869ADAB00BE83E1 /* TestTextFieldUITestsLaunchTests.swift */; };
+		83BFC5BB2869ADC500BE83E1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFC5BA2869ADC500BE83E1 /* MainView.swift */; };
+		83BFC5BD2869AFF200BE83E1 /* TextFieldWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFC5BC2869AFF200BE83E1 /* TextFieldWrapper.swift */; };
+		83BFC5BF2869BE0600BE83E1 /* LegacyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFC5BE2869BE0600BE83E1 /* LegacyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		83BFC5A72869ADAB00BE83E1 /* TestTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BFC5AB2869ADAB00BE83E1 /* TestTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldUITests.swift; sourceTree = "<group>"; };
 		83BFC5AD2869ADAB00BE83E1 /* TestTextFieldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83BFC5BA2869ADC500BE83E1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		83BFC5BC2869AFF200BE83E1 /* TextFieldWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWrapper.swift; sourceTree = "<group>"; };
+		83BFC5BE2869BE0600BE83E1 /* LegacyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				83BFC5922869ADAA00BE83E1 /* ContentView.swift */,
 				83BFC5942869ADAB00BE83E1 /* Assets.xcassets */,
 				83BFC5962869ADAB00BE83E1 /* Preview Content */,
+				83BFC5BA2869ADC500BE83E1 /* MainView.swift */,
+				83BFC5BC2869AFF200BE83E1 /* TextFieldWrapper.swift */,
+				83BFC5BE2869BE0600BE83E1 /* LegacyTextField.swift */,
 			);
 			path = TestTextField;
 			sourceTree = "<group>";
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83BFC5932869ADAA00BE83E1 /* ContentView.swift in Sources */,
+				83BFC5BB2869ADC500BE83E1 /* MainView.swift in Sources */,
+				83BFC5BF2869BE0600BE83E1 /* LegacyTextField.swift in Sources */,
 				83BFC5912869ADAA00BE83E1 /* TestTextFieldApp.swift in Sources */,
+				83BFC5BD2869AFF200BE83E1 /* TextFieldWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
