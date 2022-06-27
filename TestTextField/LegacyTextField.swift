@@ -59,6 +59,12 @@ struct LegacyTextField: UIViewRepresentable {
         public func textFieldDidEndEditing(_ textField: UITextField) {
             self.isFirstResponder.wrappedValue = false
         }
+        
+        public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+            self.isFirstResponder.wrappedValue = false
+           // textField.resignFirstResponder()
+            return true
+        }
     
     }
 }
